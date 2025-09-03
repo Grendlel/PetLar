@@ -27,6 +27,11 @@ body {
     align-items: center;
     flex-direction: row;
 }
+
+main{
+    min-height: calc(100vh);
+}
+
 .main-nav a {
     margin: 0 10px;
     font-weight: bold;
@@ -36,6 +41,7 @@ body {
 
 .logo-prefeitura {
     height: 60px;
+    margin-left: 3rem;
 }
 
 .main-content {
@@ -123,6 +129,19 @@ body {
     object-fit: cover;
     border-radius: 8px;
 }
+
+.hero {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;               
+    max-width: 1500px;         
+    height: 500px;              
+    margin: 20px auto;        
+    border-radius: 20px;
+    overflow: hidden;
+}
+
 
 .card-header {
     display: flex;

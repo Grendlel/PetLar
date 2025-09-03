@@ -13,9 +13,9 @@
     @extends('layout')
     @section('content')
         <section class="hero">
-            <img src="{{ asset('storage/imagens/banner.png') }}" alt="Banner com cachorro e gato">
+            <img src="{{ asset('storage/images/banner.png') }}" alt="Banner com cachorro e gato" class='banner'>
             <div class="slogan">Adotar é um ato de amor.</div>
-            <img src="{{ asset('storage/imagens/selo-meio-ambiente.png') }}" class="selo-meio-ambiente"
+            <img src="{{ asset('storage/images/logo.png') }}" class="selo-meio-ambiente"
                 alt="Selo Meio Ambiente">
         </section>
 
@@ -30,7 +30,7 @@
                     ['nome' => 'Nildo', 'status' => 'disponível', 'raca' => 'SRD', 'idade' => '6 anos', 'porte' => 'Médio', 'sexo' => 'Macho', 'img' => 'mymanga.jpg'],
                     ['nome' => 'Preta', 'status' => 'disponível', 'raca' => 'SRD', 'idade' => '8 anos', 'porte' => 'Grande', 'sexo' => 'Fêmea', 'img' => 'preta.jpg'],
                     ['nome' => 'Amarelo', 'status' => 'disponível', 'raca' => 'SRD', 'idade' => '3 anos', 'porte' => 'Médio', 'sexo' => 'Macho', 'img' => 'amarelo.jpg'],
-                    ['nome' => 'Sofia', 'status' => 'disponível', 'raca' => 'Toad', 'idade' => '17 anos', 'porte' => 'Pequeno', 'sexo' => 'Fêmea', 'img' => 'sofia.jpg'],
+                    ['nome' => 'Sofia', 'status' => 'disponível', 'raca' => 'Toad', 'idade' => '18 anos', 'porte' => 'Pequeno', 'sexo' => 'Fêmea', 'img' => 'sofia.jpg'],
                     ['nome' => 'Polar', 'status' => 'disponível', 'raca' => 'Polar', 'idade' => '17 anos', 'porte' => 'Grande', 'sexo' => 'Macho', 'img' => 'polar.jpg'],
                     ['nome' => 'Gabriel', 'status' => 'disponível', 'raca' => 'Gambá', 'idade' => '19 anos', 'porte' => 'Imenso', 'sexo' => 'Macho', 'img' => 'gabriel.jpg'],
                     ['nome' => 'Luna', 'status' => 'adotada', 'raca' => 'SRD', 'idade' => '10 meses', 'porte' => 'Pequeno', 'sexo' => 'Fêmea', 'img' => 'luna.jpg'],

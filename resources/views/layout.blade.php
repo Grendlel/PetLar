@@ -11,12 +11,10 @@
 <body>
     @component('navbar')
     @endcomponent
-    <main role="main" class="flex-shrink-0 col-md-10">
-        <div class="container">
+    <main role="main" class="">
             @hasSection('content')
                 @yield('content')
             @endif
-        </div>
     </main>
     @component('footer')
     @endcomponent
