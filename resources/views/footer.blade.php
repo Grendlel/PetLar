@@ -17,9 +17,9 @@
                 </div>
             </div>
             <div class="redes-sociais">
-                <img src="{{ asset('storage/imagens/whatsapp.png') }}" alt="WhatsApp">
-                <img src="{{ asset('storage/imagens/instagram.png') }}" alt="Instagram">
-                <img src="{{ asset('storage/imagens/facebook.png') }}" alt="Facebook">
+                <img src="{{ asset('storage/images/whatsapp.png') }}" alt="WhatsApp">
+                <img src="{{ asset('storage/images/instagram.png') }}" alt="Instagram">
+                <img src="{{ asset('storage/images/facebook.png') }}" alt="Facebook">
             </div>
         </div>
     </footer>

@@ -58,7 +58,7 @@ main{
     overflow: hidden;
 }
 
-.hero img {
+.fundo {
     width: 100%;
     height: auto;
     display: block;
@@ -68,14 +68,15 @@ main{
 
 .slogan {
     position: absolute;
-    top: 10%;
-    left: 8%;
+    max-width: 50%;
+    line-height: 1.2;
+}
+
+.slogan-text {
     font-size: 2rem;
     font-weight: bold;
     color: white;
     text-shadow: 2px 2px 5px #000;
-    max-width: 50%;
-    line-height: 1.2;
 }
 
 .selo-meio-ambiente {
@@ -98,12 +99,19 @@ main{
 }
 
 .localizacao {
-    background-color: #a28cf6;
+    background-color: #8843c7;
     color: white;
     padding: 20px;
     margin: 20px auto;
-    width: fit-content;
+    width: 1500px;
     border-radius: 8px;
+}
+
+.loc-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .card-grid {

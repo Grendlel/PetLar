@@ -13,15 +13,21 @@
     @extends('layout')
     @section('content')
         <section class="hero">
-            <img src="{{ asset('storage/images/banner.png') }}" alt="Banner com cachorro e gato" class='banner'>
-            <div class="slogan">Adotar é um ato de amor.</div>
-            <img src="{{ asset('storage/images/logo.png') }}" class="selo-meio-ambiente"
+            <img class="fundo" src="{{ asset('storage/images/banner.png') }}" alt="Banner com cachorro e gato" class='banner'>
+            <div class="slogan">
+                <p class="slogan-text">
+                    Adotar é um ato de amor.
+                </p>    
+            </div>
+            <img src="{{ asset('storage/images/logo-prefeitura.png') }}" class="selo-meio-ambiente"
                 alt="Selo Meio Ambiente">
         </section>
 
         <section class="localizacao">
-            <h2>Canil Municipal de Varginha</h2>
-            <p>Avenida dos Imigrantes, nº 3758, bairro da Vargem, Varginha, Minas Gerais</p>
+            <div class="loc-text">
+                <h2>Canil Municipal de Varginha</h2>
+                <p>Avenida dos Imigrantes, nº 3758, bairro da Vargem, Varginha, Minas Gerais</p>
+            </div>
         </section>
 
         <section class="animais">
