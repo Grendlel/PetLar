@@ -19,7 +19,7 @@
                     Adotar é um ato de amor.
                 </p>    
             </div>
-            <img src="{{ asset('storage/images/logo-prefeitura.png') }}" class="selo-meio-ambiente"
+            <img src="{{ asset('storage/images/logo-semea.png') }}" class="selo-meio-ambiente"
                 alt="Selo Meio Ambiente">
         </section>
 

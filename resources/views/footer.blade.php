@@ -1,9 +1,6 @@
     <footer>
-        <div class="footer-top">
-            <img src="{{ asset('storage/imagens/dog-cat.png') }}" alt="Cão e gato fofos">
-        </div>
         <div class="footer-content">
-            <h2>PetLar</h2>
+            <img src="{{ asset('storage/images/logo.png') }}" alt="logo">
             <div class="contato">
                 <div>
                     <strong>Secretaria Municipal do Meio Ambiente (SEMEA)</strong>
@@ -16,10 +13,12 @@
                     <p>Telefone: (35) 3690-2019</p>
                 </div>
             </div>
+            
             <div class="redes-sociais">
-                <img src="{{ asset('storage/images/whatsapp.png') }}" alt="WhatsApp">
-                <img src="{{ asset('storage/images/instagram.png') }}" alt="Instagram">
-                <img src="{{ asset('storage/images/facebook.png') }}" alt="Facebook">
+                <img src="{{ asset('storage/images/cachorro-gato.png') }}" alt="cachorro e gato fofos">
+                <a href="https://www.instagram.com/bem_estar_animal_semea.vga/"><img src="{{ asset('storage/images/instagram.png') }}" alt="Instagram"></a>
+                <a href=""><img src="{{ asset('storage/images/whatsapp.png') }}" alt="WhatsApp" ></a>
+                <a href="https://www.facebook.com/"><img src="{{ asset('storage/images/facebook.png') }}" alt="Facebook"></a>
             </div>
         </div>
     </footer>
