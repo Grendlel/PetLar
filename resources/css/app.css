@@ -197,29 +197,32 @@ main{
 footer {
     color: white;
     background-color: #a28cf6;
-    padding: 20px;
+    padding: 0px;
     text-align: center;
+    font-size: 1.5rem;
 }
 
-.footer-top img {
-    width: 25rem;
-    display: flex;
-    flex-direction: row;
-    opacity: 50%;
-}
-
-.contato {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-    margin: 20px 0;
-}
-
-.contato div {
-    max-width: 300px;
-}
 
 .redes-sociais img {
-    width: 30px;
+    width: 40px;
     margin: 0 10px;
 }
+
+.img-footer{
+    display: flex;
+    width: 500px;
+    opacity: 70%;
+    justify-content: start;
+    align-items: baseline;
+    align-content: baseline;
+}
+
+.logo-footer{
+    display: flex;
+    width: 500px;
+    opacity: 70%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+

@@ -5,7 +5,7 @@
             </div>
             <div class="nav-div">
                 <nav class="main-nav">
-                    <a href="petlar/canil">Conheça o Canil</a>
+                    <a href="/petlar/canil">Conheça o Canil</a>
                     <a href="#">Quero adotar</a>
                     <a href="#">Login</a>
                 </nav>
