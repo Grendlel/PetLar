@@ -1,7 +1,7 @@
 <header class="top-header">
         <div class="container header-content">
             <div class="logo">
-                <img src="{{ asset('storage/images/logo.png') }}" alt="PetLar Logo">
+                <a href="/"><img src="{{ asset('storage/images/logo.png') }}" alt="PetLar Logo"></a>
             </div>
             <div class="nav-div">
                 <nav class="main-nav">
