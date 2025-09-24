@@ -57,7 +57,7 @@
                         <p>Idade: {{ $animal['idade'] }}</p>
                         <p>Porte: {{ $animal['porte'] }}</p>
                         <p>Sexo: {{ $animal['sexo'] }}</p>
-                        <a href="#" class="btn-vermais">VER MAIS</a>
+                        <a href="/petlar/mais" class="btn-vermais">VER MAIS</a>
                     </div>
                 @endforeach
             </div>

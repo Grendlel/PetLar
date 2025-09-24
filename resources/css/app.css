@@ -15,7 +15,7 @@ body {
 
 .top-header {
     background-color: #d2a6f9;
-    padding: 10px 0;
+    font-size: 1.2rem;
 }
 
 .container.header-content {
@@ -27,7 +27,9 @@ body {
 }
 
 .logo img {
-    height: 60px;
+    height: 100px;
+    margin: 0rem;
+    padding: 0rem;
 }
 
 .nav-div {
@@ -110,6 +112,7 @@ main{
 .localizacao {
     background-color: #8843c7;
     color: white;
+    font-size: 1.5rem;
     padding: 20px;
     margin: 20px auto;
     width: 1500px;
@@ -179,7 +182,7 @@ main{
 }
 
 .status.adotada {
-    background-color: #f0b18f;
+    background-color: #8e5af0;
 }
 
 .btn-vermais {
@@ -199,6 +202,8 @@ footer {
     background-color: #a28cf6;
     padding: 0px;
     text-align: center;
+    justify-content: center;
+    align-content: center;
     font-size: 1.5rem;
 }
 
@@ -209,20 +214,25 @@ footer {
 }
 
 .img-footer{
-    display: flex;
-    width: 500px;
+    width: 20rem;
+    opacity: 70%;
+    justify-content: start;
+    align-items: baseline;
+    align-content: baseline;
+    transform: rotateY(180deg);
+}
+
+.logo-footer{
+    width: 35rem;
+    margin-bottom: 0;
+    opacity: 70%;
+    justify-content: center;
+}
+
+.selo-footer{
+    width: 20rem;
     opacity: 70%;
     justify-content: start;
     align-items: baseline;
     align-content: baseline;
 }
-
-.logo-footer{
-    display: flex;
-    width: 500px;
-    opacity: 70%;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-}
-

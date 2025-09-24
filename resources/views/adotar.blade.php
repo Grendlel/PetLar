@@ -1,3 +1,16 @@
-<div>
-    <!-- Let all your things have their places; let each part of your business have its time. - Benjamin Franklin -->
-</div>
+<section class="filtro">
+           @php
+               $especie = [];
+               $porte = [];
+               $pelagem = [];
+               $raca = [];
+               $vacinado = [];
+               $quaisvacinas = [];
+               $vermifugado = [];
+               $idade = [];
+               $cor = [];
+               $castrado = [];
+               $sexo = [];
+
+
+       </section>

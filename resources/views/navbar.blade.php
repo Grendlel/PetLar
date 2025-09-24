@@ -6,11 +6,9 @@
             <div class="nav-div">
                 <nav class="main-nav">
                     <a href="/petlar/canil">Conheça o Canil</a>
-                    <a href="#">Quero adotar</a>
-                    <a href="#">Login</a>
+                    <a href="/petlar/adotar">Quero adotar</a>
                 </nav>
-                <img src="{{ asset('storage/images/logo-prefeitura.png') }}" alt="Prefeitura" class="logo-prefeitura">
+                <a href="https://www.varginha.mg.gov.br/"><img src="{{ asset('storage/images/logo-prefeitura.png') }}" alt="Prefeitura" class="logo-prefeitura"></a>
             </div>
-            
         </div>
     </header>
