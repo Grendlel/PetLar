@@ -116,7 +116,7 @@ main{
     padding: 20px;
     margin: 20px auto;
     width: 1500px;
-    border-radius: 8px;
+    border-radius: 20px;
 }
 
 .loc-text {
@@ -131,7 +131,7 @@ main{
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-    padding: 20px;
+
 }
 
 .animal-card {
@@ -214,12 +214,11 @@ footer {
 }
 
 .img-footer{
-    width: 20rem;
-    opacity: 70%;
+    width: 22rem;
+    opacity: 80%;
     justify-content: start;
     align-items: baseline;
     align-content: baseline;
-    transform: rotateY(180deg);
 }
 
 .logo-footer{
@@ -235,4 +234,31 @@ footer {
     justify-content: start;
     align-items: baseline;
     align-content: baseline;
+}
+
+.section-title {
+    background-color: #8843c7;
+    color: white;
+    font-size: 3rem;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 15px;
+    display: flex;
+    font-family: 'Cherry Bomb One';
+}
+.info-box {
+    background-color: #77ab59;
+    color: white;
+    font-size: 1.5rem;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 15px;
+    text-align: justify;
+    
+}
+
+.equipe {
+    border-radius: 1rem;
+    width: 20rem;
+    margin-bottom: 5rem;
 }

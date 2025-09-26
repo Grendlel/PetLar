@@ -45,7 +45,7 @@
                 ];
             @endphp
 
-            <div class="card-grid">
+            <div class="card-grid col-md-7">
                 @foreach ($animais as $animal)
                     <div class="animal-card">
                         <div class="card-header">

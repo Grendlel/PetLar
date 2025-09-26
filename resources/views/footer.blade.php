@@ -2,7 +2,7 @@
         <img class="logo-footer" src="{{ asset('storage/images/logo.png') }}" alt="logo">
         <div class="footer-content">
             <div class="row justify-content-md-center">
-                <img class="img-footer" src="{{ asset('storage/images/animais-footer.png') }}" alt="cachorro e gato fofos">
+                <img class="img-footer" src="{{ asset('storage/images/cachorro-gato.png') }}" alt="cachorro e gato fofos">
                 <div class="col-md-3">
                     <p><b>Secretaria Municipal do Meio Ambiente (SEMEA)</b></p>
                     <p>R. Jaime Venturato, 50 - Vila São Geraldo, Varginha - MG, 37030-400</p>

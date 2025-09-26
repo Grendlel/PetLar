@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,10 +8,7 @@
    @vite(['resources/js/app.js'])
 </head>
 
-
 <body>
-
-
    @extends('layout')
    @section('content')
        <section class="hero">
@@ -22,27 +18,32 @@
                    Adotar é um ato de amor.
                </p>   
            </div>
-           <img src="{{ asset('storage/images/logo-prefeitura.png') }}" class="selo-meio-ambiente"
+           <img src="{{ asset('storage/images/logo-semea.png') }}" class="selo-meio-ambiente"
                alt="Selo Meio Ambiente">
        </section>
 
+    <div class="container">
+        <h2 class="section-title mt-4 justify-content-center">Seja Bem-Vindo ao Canil.</h2>
+        <div class="info-box">Cuidar dos animais é um ato de amor! Aqui no Canil Municipal de Varginha, oferecemos abrigo, cuidados e muito carinho para cães e gatos resgatados, em situação de abandono ou maus-tratos. Nossa missão é promover o bem-estar animal e encontrar lares responsáveis para nossos companheiros de quatro patas.</div>
 
-       <section class="localizacao">
-           <div class="loc-text">
-               <h2>Seja Bem-Vindo ao Canil.</h2>
-           </div>
-       </section>
-
-
-       <section class="animais">
-           <div class="loc-text">
-               <p>Cuidar dos animais é um ato de amor! Aqui no Canil Municipal de Varginha, oferecemos abrigo, cuidados e muito carinho para cães e gatos resgatados. em situação de abandono ou maus-tratos. Nossa missão é promover o bem-estar animal e econtrar lares responsáveis para nossos companheiros de quatro patas.</p>
-           </div>
-       </section>
+    <div class="row">
+        <div class="col-md-6">
+            <h3 class="section-title justify-content-center">Quem Somos?</h3>
+                <div class="info-box">O Canil Municipal de Varginha, criado pela Prefeitura e SEMEA, atua na proteção e reabilitação de animais, promovendo a adoção consciente e a educação ambiental. Uma equipe dedicada garante cuidados diários com alimentação, higiene e saúde dos animais.</div>
+        </div>
+        <div class="col-md-6">
+            <h3 class="section-title justify-content-center">Adoção Consciente</h3>
+                <div class="info-box">Adotar é um gesto de amor que transforma vidas – a do animal e a sua!<br>Todos os nossos cães e gatos disponíveis para adoção estão vacinados, vermifugados e, quando possível, castrados.<br>Quer adotar? Clique no menu acima ou venha nos visitar!</div>
+        </div>
+    </div>
+    <h2 class="section-title mt-4 justify-content-center">Conheça nossa equipe</h2>
+    <div class="row">
+        <div class="col-md-3"><img class=equipe src="{{ asset('storage/images/elvis.jpg') }}"></div>
+        <div class="col-md-3"><img class=equipe src="{{ asset('storage/images/elvis.jpg') }}"></div>
+        <div class="col-md-3"><img class=equipe src="{{ asset('storage/images/elvis.jpg') }}"></div>
+        <div class="col-md-3"><img class=equipe src="{{ asset('storage/images/elvis.jpg') }}"></div>
+    </div>
    @endsection
 
-
 </body>
-
-
 </html>
