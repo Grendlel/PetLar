@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Chewy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@500&display=swap');
 
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: 'Open Sans';
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans';
 }
 
 body {
@@ -39,7 +40,7 @@ body {
     flex-direction: row;
 }
 
-main{
+main {
     min-height: calc(100vh);
 }
 
@@ -64,7 +65,6 @@ main{
     display: flex;
     justify-content: center;
     margin: 20px auto;
-    max-width: 950px;
     border-radius: 20px;
     overflow: hidden;
 }
@@ -78,9 +78,14 @@ main{
 }
 
 .slogan {
-    position:relative;
     max-width: 50%;
     line-height: 1.2;
+    position: absolute;
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px #000;
+    text-align: left;
 }
 
 .slogan-text {
@@ -88,7 +93,8 @@ main{
     font-weight: bold;
     color: white;
     text-shadow: 2px 2px 5px #000;
-    font-family: 'Cherry Bomb One';
+    font-family: 'DynaPuff';
+
 }
 
 .selo-meio-ambiente {
@@ -99,15 +105,7 @@ main{
 }
 
 
-.slogan {
-    position: absolute;
-    top: 15%;
-    left: 10%;
-    font-size: 2em;
-    font-weight: bold;
-    color: white;
-    text-shadow: 2px 2px #000;
-}
+.slogan {}
 
 .localizacao {
     background-color: #8843c7;
@@ -140,7 +138,7 @@ main{
     border-radius: 10px;
     padding: 10px;
     text-align: left;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
 
 .animal-card img {
@@ -154,10 +152,10 @@ main{
     position: relative;
     display: flex;
     justify-content: center;
-    width: 100%;               
-    max-width: 1500px;         
-    height: 500px;              
-    margin: 20px auto;        
+    width: 100%;
+    max-width: 1500px;
+    height: 500px;
+    margin: 20px auto;
     border-radius: 20px;
     overflow: hidden;
 }
@@ -199,7 +197,7 @@ main{
 
 footer {
     color: white;
-    background-color: #a28cf6;
+    background-color: #d2a6f9;
     padding: 0px;
     text-align: center;
     justify-content: center;
@@ -213,7 +211,7 @@ footer {
     margin: 10px;
 }
 
-.img-footer{
+.img-footer {
     width: 22rem;
     opacity: 80%;
     justify-content: start;
@@ -221,14 +219,14 @@ footer {
     align-content: baseline;
 }
 
-.logo-footer{
+.logo-footer {
     width: 35rem;
     margin-bottom: 0;
     opacity: 70%;
     justify-content: center;
 }
 
-.selo-footer{
+.selo-footer {
     width: 20rem;
     opacity: 70%;
     justify-content: start;
@@ -244,8 +242,9 @@ footer {
     margin: 20px auto;
     border-radius: 15px;
     display: flex;
-    font-family: 'Cherry Bomb One';
+    font-family: 'DynaPuff';
 }
+
 .info-box {
     background-color: #77ab59;
     color: white;
@@ -254,11 +253,57 @@ footer {
     margin: 20px auto;
     border-radius: 15px;
     text-align: justify;
-    
+    text-indent: 4rem;
+
 }
 
 .equipe {
     border-radius: 1rem;
     width: 20rem;
     margin-bottom: 5rem;
+}
+
+.animal-perf {
+    background-color: #8843c7;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: left;
+    width: 80rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.animal-perf img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 40px;
+    color: white;
+    padding: 1rem;
+}
+
+.nome {
+    font-family: "DynaPuff";
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 2rem !important;
+    margin-top: 0 !important;
+    text-indent: 0 !important;
+}
+
+.animal-perf p {
+    color: white;
+    font-size: 1.5rem;
+    text-indent: 3rem;
+    margin-top: 1rem;
+}
+
+.animal-perf-desc {
+    background-color: #77ab59;
+    width: 80rem;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
 }

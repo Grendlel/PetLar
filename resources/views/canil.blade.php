@@ -14,7 +14,7 @@
        <section class="hero">
            <img class="fundo" src="{{ asset('storage/images/banner.png') }}" alt="Banner com cachorro e gato" class='banner'>
            <div class="slogan">
-               <p class="slogan-text">
+               <p class=" slogan-text">
                    Adotar é um ato de amor.
                </p>   
            </div>
@@ -33,7 +33,7 @@
         </div>
         <div class="col-md-6">
             <h3 class="section-title justify-content-center">Adoção Consciente</h3>
-                <div class="info-box">Adotar é um gesto de amor que transforma vidas – a do animal e a sua!<br>Todos os nossos cães e gatos disponíveis para adoção estão vacinados, vermifugados e, quando possível, castrados.<br>Quer adotar? Clique no menu acima ou venha nos visitar!</div>
+                <div class="info-box"><p>Adotar é um gesto de amor que transforma vidas – a do animal e a sua!</p><p>Todos os nossos cães e gatos disponíveis para adoção estão vacinados, vermifugados e, quando possível, castrados.</p><p>Quer adotar? Clique no menu acima ou venha nos visitar!</p></div>
         </div>
     </div>
     <h2 class="section-title mt-4 justify-content-center">Conheça nossa equipe</h2>

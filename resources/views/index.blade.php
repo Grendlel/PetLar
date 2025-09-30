@@ -13,15 +13,15 @@
     @extends('layout')
     @section('content')
         <section class="hero">
-            <img class="fundo" src="{{ asset('storage/images/banner.png') }}" alt="Banner com cachorro e gato" class='banner'>
-            <div class="slogan">
-                <p class="slogan-text">
-                    Adotar é um ato de amor.
-                </p>    
-            </div>
-            <img src="{{ asset('storage/images/logo-semea.png') }}" class="selo-meio-ambiente"
-                alt="Selo Meio Ambiente">
-        </section>
+           <img class="fundo" src="{{ asset('storage/images/banner.png') }}" alt="Banner com cachorro e gato" class='banner'>
+           <div class="slogan">
+               <p class="slogan-text">
+                   Adotar é um ato de amor.
+               </p>   
+           </div>
+           <img src="{{ asset('storage/images/logo-semea.png') }}" class="selo-meio-ambiente"
+               alt="Selo Meio Ambiente">
+       </section>
 
         <section class="localizacao">
             <div class="loc-text">
