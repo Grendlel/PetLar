@@ -104,9 +104,6 @@ main {
     height: 10rem;
 }
 
-
-.slogan {}
-
 .localizacao {
     background-color: #8843c7;
     color: white;
@@ -128,17 +125,20 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
-
+    gap: 35px;
+    margin-bottom: 1rem;
 }
 
 .animal-card {
-    background-color: #b8db87;
-    width: 220px;
-    border-radius: 10px;
+    background-color: #77ab59;
+    width: 17rem;
+    border-radius: 15px;
     padding: 10px;
     text-align: left;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    font-size: larger;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
 }
 
 .animal-card img {
@@ -179,14 +179,18 @@ main {
     background-color: #b18ff0;
 }
 
-.status.adotada {
+.status.adotado {
     background-color: #8e5af0;
+}
+
+.status.tratamento {
+    background-color: #20b5f0;
 }
 
 .btn-vermais {
     display: block;
     margin-top: 8px;
-    background-color: #4a734f;
+    background-color: #1e5f27;
     color: white;
     text-align: center;
     padding: 6px;
@@ -286,6 +290,7 @@ footer {
     align-items: center;
     justify-content: center;
     display: flex;
+    color: white !important;
     font-size: 2rem !important;
     margin-top: 0 !important;
     text-indent: 0 !important;
@@ -307,3 +312,4 @@ footer {
     font-size: 1.5rem;
     margin-bottom: 1rem;
 }
+

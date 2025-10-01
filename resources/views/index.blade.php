@@ -33,23 +33,29 @@
         <section class="animais">
             @php
                 $animais = [
-                    ['nome' => 'Nildo', 'status' => 'disponível', 'raca' => 'SRD', 'idade' => '6 anos', 'porte' => 'Médio', 'sexo' => 'Macho', 'img' => 'mymanga.jpg'],
-                    ['nome' => 'Preta', 'status' => 'disponível', 'raca' => 'SRD', 'idade' => '8 anos', 'porte' => 'Grande', 'sexo' => 'Fêmea', 'img' => 'preta.jpg'],
+                    ['nome' => 'Nildo', 'status' => 'tratamento', 'raca' => 'SRD', 'idade' => '6 anos', 'porte' => 'Médio', 'sexo' => 'Macho', 'img' => 'nirdo.jpg'],
+                    ['nome' => 'Preta', 'status' => 'disponível', 'raca' => 'SRD', 'idade' => '8 anos', 'porte' => 'Grande', 'sexo' => 'Fêmea', 'img' => 'preta.png'],
                     ['nome' => 'Amarelo', 'status' => 'disponível', 'raca' => 'SRD', 'idade' => '3 anos', 'porte' => 'Médio', 'sexo' => 'Macho', 'img' => 'amarelo.jpg'],
-                    ['nome' => 'Sofia', 'status' => 'disponível', 'raca' => 'Toad', 'idade' => '18 anos', 'porte' => 'Pequeno', 'sexo' => 'Fêmea', 'img' => 'sofia.jpg'],
-                    ['nome' => 'Polar', 'status' => 'disponível', 'raca' => 'Polar', 'idade' => '17 anos', 'porte' => 'Grande', 'sexo' => 'Macho', 'img' => 'polar.jpg'],
-                    ['nome' => 'Gabriel', 'status' => 'disponível', 'raca' => 'Gambá', 'idade' => '19 anos', 'porte' => 'Imenso', 'sexo' => 'Macho', 'img' => 'gabriel.jpg'],
-                    ['nome' => 'Luna', 'status' => 'adotada', 'raca' => 'SRD', 'idade' => '10 meses', 'porte' => 'Pequeno', 'sexo' => 'Fêmea', 'img' => 'luna.jpg'],
-                    ['nome' => 'Juia', 'status' => 'disponível', 'raca' => 'Chiuaua', 'idade' => '17 anos', 'porte' => 'Pequeno', 'sexo' => 'Fêmea', 'img' => 'juia.jpg'],
-                    ['nome' => 'Neco Arc', 'status' => 'disponível', 'raca' => 'Neco Arc', 'idade' => '1000 anos', 'porte' => 'Minúsculo', 'sexo' => 'Gato', 'img' => 'neco.jpg'],
+                    ['nome' => 'Luna', 'status' => 'adotado', 'raca' => 'SRD', 'idade' => '10 meses', 'porte' => 'Pequeno', 'sexo' => 'Fêmea', 'img' => 'luna.png'],
+                    ['nome' => 'Juia', 'status' => 'disponível', 'raca' => 'Chiuaua', 'idade' => '17 anos', 'porte' => 'Pequeno', 'sexo' => 'Fêmea', 'img' => 'chiuaua.png'],
+                    ['nome' => 'Nildo', 'status' => 'tratamento', 'raca' => 'SRD', 'idade' => '6 anos', 'porte' => 'Médio', 'sexo' => 'Macho', 'img' => 'nirdo.jpg'],
+                    ['nome' => 'Preta', 'status' => 'disponível', 'raca' => 'SRD', 'idade' => '8 anos', 'porte' => 'Grande', 'sexo' => 'Fêmea', 'img' => 'preta.png'],
+                    ['nome' => 'Amarelo', 'status' => 'disponível', 'raca' => 'SRD', 'idade' => '3 anos', 'porte' => 'Médio', 'sexo' => 'Macho', 'img' => 'amarelo.jpg'],
+                    ['nome' => 'Luna', 'status' => 'adotado', 'raca' => 'SRD', 'idade' => '10 meses', 'porte' => 'Pequeno', 'sexo' => 'Fêmea', 'img' => 'luna.png'],
+                    ['nome' => 'Juia', 'status' => 'disponível', 'raca' => 'Chiuaua', 'idade' => '17 anos', 'porte' => 'Pequeno', 'sexo' => 'Fêmea', 'img' => 'chiuaua.png'],
+                    ['nome' => 'Nildo', 'status' => 'tratamento', 'raca' => 'SRD', 'idade' => '6 anos', 'porte' => 'Médio', 'sexo' => 'Macho', 'img' => 'nirdo.jpg'],
+                    ['nome' => 'Preta', 'status' => 'disponível', 'raca' => 'SRD', 'idade' => '8 anos', 'porte' => 'Grande', 'sexo' => 'Fêmea', 'img' => 'preta.png'],
+                    ['nome' => 'Amarelo', 'status' => 'disponível', 'raca' => 'SRD', 'idade' => '3 anos', 'porte' => 'Médio', 'sexo' => 'Macho', 'img' => 'amarelo.jpg'],
+                    ['nome' => 'Luna', 'status' => 'adotado', 'raca' => 'SRD', 'idade' => '10 meses', 'porte' => 'Pequeno', 'sexo' => 'Fêmea', 'img' => 'luna.png'],
+                    ['nome' => 'Juia', 'status' => 'disponível', 'raca' => 'Chiuaua', 'idade' => '17 anos', 'porte' => 'Pequeno', 'sexo' => 'Fêmea', 'img' => 'chiuaua.png'],
                 ];
             @endphp
 
-            <div class="card-grid col-md-7">
+            <div class="card-grid col-md-10" style="margin-left: 10rem;">
                 @foreach ($animais as $animal)
                     <div class="animal-card">
                         <div class="card-header">
-                            <h3>{{ $animal['nome'] }}</h3>
+                            <h3 class="nome">{{ $animal['nome'] }}</h3>
                             <span class="status {{ strtolower($animal['status']) }}">{{ strtoupper($animal['status']) }}</span>
                         </div>
                         <img src="{{ asset('storage/images/' . $animal['img']) }}" alt="{{ $animal['nome'] }}">
