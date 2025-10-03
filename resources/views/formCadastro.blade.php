@@ -17,7 +17,7 @@
       </section>
 
 
-      <form action="{{ route('upload.store') }}" method="POST" enctype="multipart/form-data">
+      <form action="{{ route('adotar') }}" method="POST" enctype="multipart/form-data">
 
 
        @csrf
@@ -116,7 +116,6 @@
                <option value="nao">Não</option>
            </select>
        </div>
-
 
        <div>
            <button type="submit">Enviar</button>
