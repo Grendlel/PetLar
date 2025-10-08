@@ -313,3 +313,63 @@ footer {
     margin-bottom: 1rem;
 }
 
+
+/*form*/
+.form{
+    background-color: #77ab59;
+    border-radius: 3rem !important;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: bold;
+
+}
+
+.form-select, .form-control{
+    background-color: #dbb9f8;
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    border-radius: 1rem;
+}
+
+.btn{
+    background-color: #8843c7;
+    border-radius: 20rem;
+    font-size: 1.4rem;
+    width: 10rem;
+    font-weight: bold;
+    color: white;
+}
+
+.text-end{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+}
+
+.titulo-form{
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+}
+
+.hero-form{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    border-radius: 30px;
+    overflow: hidden;
+    height: 15rem;
+}
+
+.selo-meio-ambiente-form{
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    height: 15rem;
+}

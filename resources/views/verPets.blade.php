@@ -10,6 +10,7 @@
 <body>
    @extends('layout')
    @section('content')
+   
        <section class="animais">
            @php
                $animais = [
@@ -18,8 +19,9 @@
 Ele também gosta muito dos funcionários, em especial seu papai humano, um funcionário que sempre o dá muito amor e carinho!', 'especie' => 'Canina', 'img' => 'nirdo.jpg', 'raca' => 'SRD', 'idade' => '6 anos', 'porte' => 'Médio', 'sexo' => 'Macho', ]
                ];
            @endphp
-
+           
            <div class="card-grid">
+            
                @foreach ($animais as $animal)
                    <div class="row animal-perf">
                        <div class="col-md-6">

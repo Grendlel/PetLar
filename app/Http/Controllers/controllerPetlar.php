@@ -3,18 +3,18 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\Modelart;
+use App\Models\Pet;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Storage;
 
-class controllerModelart extends Controller
+class controllerPetlar extends Controller
 {
     /**
      * Display a listing of the resource.
      */
     public function index()
     {
-        $dados = PetLar::all();
+        $dados = Pet::all();
         return view('verPets', compact('dados'));
     }
 
@@ -55,7 +55,7 @@ class controllerModelart extends Controller
         $dados->quaisvacinas = $request->input('quaisvacinas');
         $dados->foto = $path;
         $dados->save();
-        return redirect('/')->with('success', 'Nova animal cadastrado com sucesso.');
+        return redirect('/')->with('success', 'Novo animal cadastrado com sucesso.');
     }
 
     /**

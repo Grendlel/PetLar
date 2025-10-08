@@ -1,6 +1,6 @@
 <?php
 
-    use App\Http\Controllers\calculadoraController;
+    use App\Http\Controllers\controllerPetlar;
     use Illuminate\Support\Facades\Route;
 
 
@@ -15,4 +15,5 @@ Route::get('/', function () {
     Route::get('/petlar/editarPet', function(){return view('editarPet');})->name('editarPet');
     Route::get('/petlar/canil', function(){return view('canil');})->name('canil');
     Route::get('/petlar/pesquisar', function(){return view('pesquisarPets');})->name('pesquisarPets');
-    Route::get('/petlar/adotar', [AdotarController::class, 'adotar'])->name('adotar');
+    
+    Route::get('/petlar/adotar', [controllerPetlar::class, 'create'])->name('adotar');
